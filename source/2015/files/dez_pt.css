@@ -1,0 +1,7 @@
+﻿/* ==========共通指定========== */
+/* デザインパターン指定 */
+@import url("base_area.css");
+@import url("sub_area.css");
+
+/* 左右レイアウト */
+@import url("2c_l.css");

@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unofficial Mirror - 喫茶店アイドル育成ゲーム「Daydream☆SHOW Is the Order a Rabbit？」公式サイト</title>
+    <meta name="description" content="「喫茶店を舞台に活躍するアイドル」をコンセプトに個性的な女の子たちを育成する新感覚ゲーム登場！">
+    <meta property="og:title" content="Unofficial Mirror - 喫茶店アイドル育成ゲーム「Daydream☆SHOW Is the Order a Rabbit？」公式サイト">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.gochiusa.com/">
+    <meta property="og:image" content="../core_sys/images/others/ogp.jpg">
+    <meta property="og:site_name" content="Unofficial Mirror - 喫茶店アイドル育成ゲーム「Daydream☆SHOW Is the Order a Rabbit？」公式サイト">
+    <meta property="og:description" content="「喫茶店を舞台に活躍するアイドル」をコンセプトに個性的な女の子たちを育成する新感覚ゲーム登場！">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@usagi_anime">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css">
+    <link rel="stylesheet" href="../core_sys/images/others/css/sanitize.css?180401">
+    <link rel="stylesheet" href="../core_sys/css/common/common.css?180401">
+    <link rel="stylesheet" href="../core_sys/css/user/user.css?180401">
+    <link rel="stylesheet" href="../core_sys/images/others/css/utility.css?180401">
+    <link rel="stylesheet" href="../core_sys/css/dez_pt/contents/001/base_area.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <!-- contents start -->
+  <div id="cms_block">
+    <div class="page_5">
+      <div class="block line_00">
+        <div class="block_inner">
+          <div class="atl_inner">
+            <!-- main strings block start -->
+            <div class="read">
+              <div class="wrapper">
+                <div class="wrapper__inner">
+                  <nav class="globalNav">
+                    <ul class="globalNav__list">
+                      <li>
+                        <a href="../index.html#skip">
+                          <img src="../core_sys/images/main/common/button_top.png" alt="TOP"></a>
+                      </li>
+                      <li>
+                        <a href="../story/index.html">
+                          <img src="../core_sys/images/main/common/button_story.png" alt="STORY"></a>
+                      </li>
+                      <li>
+                        <a href="index.html">
+                          <img src="../core_sys/images/main/common/button_movie.png" alt="MOVIE"></a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="contImg">
+                    <img src="../core_sys/images/main/cont/movie.png"></div>
+                  <div class="rinComment">
+                    <div class="rinComment__img">
+                      <img src="../core_sys/images/main/common/rin.png" alt=""></div>
+                    <div class="rinComment__balloon">
+                      <p class="rinComment__balloonText">ふぃ…フィルムが…
+                        <br>すみません　直しておきます…</p></div>
+                  </div>
+                  <div class="fixedItems">
+                    <a href="../unit/index.html">
+                      <img src="../core_sys/images/main/common/button_produce.png" alt="プロデュース"></a>
+                  </div>
+                  <p class="copyrights">
+                    <small>©Koi・芳文社／ご注文は製作委員会ですか？？</small></p>
+                </div>
+              </div>
+            </div>
+            <!-- main strings block end --></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- contents end -->
+  <style>#cms_block {display: none;}</style>
+  <script>$(function() {
+      $("#cms_block").fadeIn(1000);
+    });</script>
+  <script>$(function() {
+      var audioDirectory = "../core_sys/images/others/audio/";
+      var page = $("#cms_block").children("div").attr("class");
+      if (page === "page_5") {
+        var bgm = new Audio(audioDirectory + "bgm_movie.mp3");
+      } else if (page === "page_6") {
+        var bgm = new Audio(audioDirectory + "bgm_lesson.mp3");
+      } else if (page === "page_7") {
+        var bgm = new Audio(audioDirectory + "bgm_happine.mp3");
+      } else if (page === "page_8") {
+        var bgm = new Audio(audioDirectory + "bgm_mistral.mp3");
+      } else if (page === "page_9") {
+        var bgm = new Audio(audioDirectory + "bgm_diva.mp3");
+      } else {
+        var bgm = new Audio(audioDirectory + "bgm_title.mp3");
+      }
+      bgm.volume = 0.4;
+      bgm.play();
+      clicked = false;
+      $(".wrapper").on('click touchstart',
+      function() {
+        if (!clicked) {
+          clicked = true;
+          bgm.play();
+        }
+      });
+    });</script>
