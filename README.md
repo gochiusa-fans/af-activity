@@ -1,4 +1,4 @@
-[English](https://github.com/250king/gochiusa/blob/main/README-EN.md) | [日本語](https://github.com/250king/gochiusa/blob/main/README-JA.md)
+[English](https://github.com/gochiusa-fans/af-activity/blob/main/README-EN.md) | [日本語](https://github.com/gochiusa-fans/af-activity/blob/main/README-JA.md)
 
 # 历年点兔愚人节活动镜像
 
