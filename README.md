@@ -14,7 +14,7 @@
 
 ## 镜像
 
-请参阅[此页面](https://github.com/250king/gochiusa/blob/main/image/README.md)
+请参阅[此页面](https://github.com/gochiusa-fans/af-activity/blob/main/image/README.md)
 
 ## 鸣谢
 
