@@ -14,3 +14,4 @@ Join time: 2022-01-08
 | 2020 | ×         |                                                      |
 | 2021 | √         | [JA](https://blog.kiseki.moe/gochiusa/gochiusa2021/) |
 | 2022 | √         | [JA](https://blog.kiseki.moe/gochiusa/gochiusa2022/) |
+| 2023 | √         | [JA](https://blog.kiseki.moe/gochiusa/gochiusa2023/) | 
