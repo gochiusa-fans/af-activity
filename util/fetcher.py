@@ -1,5 +1,4 @@
 from datetime import datetime
-from threading import Event
 from urllib.parse import urlparse, unquote
 from zoneinfo import ZoneInfo
 from loguru import logger
@@ -10,7 +9,6 @@ import sys
 
 JST = ZoneInfo("Asia/Tokyo")
 p = sync_playwright().start()
-closed = Event()
 target = datetime(datetime.now(JST).year, 4, 1, 0, 0, 0, tzinfo=JST)
 data_path = Path(sys.path[0]).parent / "data" / "browser.json"
 source_path = Path(sys.path[0]).parent / "source" / str(datetime.now(JST).year)
@@ -70,7 +68,6 @@ while True:
     time.sleep(1)
 logger.success("April Fools Day has arrived! Now open the official page.")
 browser = p.chromium.launch(headless=False)
-browser.on("disconnected", lambda *args: closed.set())
 if data_path.exists():
     context = browser.new_context(storage_state=data_path)
 else:
@@ -83,7 +80,6 @@ page.on("response", fetch)
 page.on("download", download)
 page.goto("https://gochiusa.com/af2026/")
 page.wait_for_timeout(1000 * 60 * 30)
-closed.wait()
 logger.info("Browser closed. Saving storage state...")
 context.storage_state(path=data_path)
 browser.close()
