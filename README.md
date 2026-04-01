@@ -12,6 +12,22 @@
 
 因此我想保留下来，供大家查看
 
+## 工作进度
+
+- [] 2014年：暂无相关资料
+- [x] 2015年：已完成
+- [x] 2016年：已完成，但缺失ogp图片（名称main_img.jpg）
+- [x] 2017年：已完成
+- [x] 2018年：已完成，但缺失ogp图片
+- [x] 2019年：已完成，但缺失ogp图片，以及main_img_sp.png和story1_sp.png
+- [x] 2020年：受Staticfile CDN下线影响，目前仍在修复中
+- [x] 2021年：受Staticfile CDN下线影响，目前仍在修复中
+- [x] 2022年：受Staticfile CDN下线影响，目前仍在修复中
+- [x] 2023年：受Staticfile CDN下线影响，目前仍在修复中
+- [x] 2024年：受Staticfile CDN下线影响，目前仍在修复中
+- [x] 2025年：已完成
+- [x] 2026年：已完成
+
 ## 镜像
 
 请参阅[此页面](https://github.com/gochiusa-fans/af-activity/blob/main/image/README.md)
