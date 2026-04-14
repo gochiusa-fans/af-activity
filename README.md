@@ -20,9 +20,9 @@
 - [x] 2017年：已完成
 - [x] 2018年：已完成，但缺失ogp图片
 - [x] 2019年：已完成，但缺失ogp图片，以及main_img_sp.png和story1_sp.png
-- [x] 2020年：受Staticfile CDN下线影响，目前仍在修复中
-- [x] 2021年：受Staticfile CDN下线影响，目前仍在修复中
-- [x] 2022年：受Staticfile CDN下线影响，目前仍在修复中
+- [x] 2020年：已完成，但缺失ogp图片
+- [x] 2021年：已完成
+- [x] 2022年：已完成，但缺失ogp图片（存疑site-tile图片是否缺失）
 - [x] 2023年：受Staticfile CDN下线影响，目前仍在修复中
 - [x] 2024年：受Staticfile CDN下线影响，目前仍在修复中
 - [x] 2025年：已完成
